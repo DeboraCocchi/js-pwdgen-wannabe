@@ -4,5 +4,5 @@ const userColor = prompt('Qual è il tuo colore preferito?');
 
 
 document.getElementById('message').innerHTML = `
-Ciao ${userFirstName} ${userLastName},<br> il tuo colore preferito è ${userColor} 22!
+Ciao ${userFirstName} ${userLastName},<br> la password che hai scelto è <strong>${userFirstName}${userLastName}${userColor}22</strong>
 `;
